@@ -1,1 +1,129 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav .menu .logo a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+nav .menu ul {
+  list-style: none;
+  display: flex;
+}
+
+nav .menu ul li {
+  margin: 0 15px;
+}
+
+nav .menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav .menu ul li a:hover {
+  color: #f4a261;
+}
+
+
+.section {
+  padding: 60px 20px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li strong {
+  font-weight: bold;
+}
+
+.resume ul li ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Center content */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.imgs {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.img-mys {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sub_title {
+  font-size: 18px;
+  color: #777;
+}
+
+/* Hover effect for images */
+.imgs:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
 
